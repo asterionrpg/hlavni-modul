@@ -1,0 +1,36 @@
+{
+    "name": "asterion/hlavni-modul",
+    "license": "proprietary",
+    "type": "page",
+    "description": "Main module of Asterion RPG",
+    "keywords": [
+        "Asterion",
+        "main",
+        "RPG",
+        "module"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Asterion\\": "Asterion/"
+        }
+    },
+    "require": {
+        "php": ">=7.1",
+        "drdplus/rules-skeleton": "^1.5"
+    },
+    "require-dev": {
+        "composer/composer": "^1.8",
+        "granam/exceptions-hierarchy": "^5.0",
+        "mockery/mockery": "~1.0",
+        "phpunit/phpunit": "^8.3",
+        "roave/security-advisories": "dev-master"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "scripts": {
+        "pre-autoload-dump": [
+            "rm -f Asterion/Tests/RulesSkeleton && mkdir -p Asterion/Tests && ln -s ../../vendor/drdplus/rules-skeleton/DrdPlus/Tests/RulesSkeleton Asterion/Tests/"
+        ]
+    }
+}

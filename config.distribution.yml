@@ -1,0 +1,12 @@
+web:
+  protected_access: false
+  menu_position_fixed: false
+  show_home_button_on_homepage: true
+  show_home_button_on_routes: true
+  home_button_target: 'https://www.drdplus.info/asterion'
+  name: 'Asterion RPG - Hlavní modul'
+  title_smiley: '☠'
+google:
+  analytics_id: 'UA-121206931-0'
+application:
+  yaml_file_with_routes: 'routes.yml'
