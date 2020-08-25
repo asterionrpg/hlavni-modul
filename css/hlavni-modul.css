@@ -1,0 +1,15 @@
+ol.content {
+    list-style-type: upper-alpha;
+}
+ol.content > li {
+    text-transform: uppercase;
+}
+ol.content > li li {
+    text-transform: none;
+}
+ol.content ol {
+    list-style-type: lower-alpha;
+}
+ol.content ol ol {
+    list-style-type: decimal;
+}
