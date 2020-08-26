@@ -1,0 +1,5 @@
+.background-image {
+    background: url(/images/mod00.jpg) repeat center;
+    filter: grayscale(100);
+    opacity: 8%;
+}
