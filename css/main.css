@@ -1165,10 +1165,9 @@ DIV.pzviska {
     mso-style-name: přízviska
 }
 
-SPAN.zdraznn {
-    FONT-WEIGHT: bold;
-    LETTER-SPACING: 1pt;
-    mso-style-name: zdůrazněný
+.zdurazneny {
+    font-weight: bold;
+    letter-spacing: 1pt;
 }
 
 SPAN.msoIns {
