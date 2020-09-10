@@ -31,3 +31,7 @@ ul.diamond-list li:before {
     content: '¨';
     padding-right: 0.1em;
 }
+
+.rada {
+    background-color: aqua;
+}
