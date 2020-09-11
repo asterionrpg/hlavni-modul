@@ -1,0 +1,79 @@
+.gold {
+    color: gold;
+}
+
+.white {
+    color: white;
+}
+
+.black {
+    color: black;
+}
+
+.blue {
+    color: blue;
+}
+
+.silver {
+    color: silver;
+}
+
+.lazurite {
+    color: #26619c;
+}
+
+.red {
+    color: red;
+}
+
+.orange {
+    color: orange;
+}
+
+.ruby {
+    color: #e0115f;
+}
+
+.grey {
+    color: grey;
+}
+
+.obsidian {
+    color: #5e5e5e;
+}
+
+.shades-of-blue :first-child {
+    color: mediumblue;
+}
+
+.shades-of-blue :nth-child(2) {
+    color: darkblue;
+}
+
+.sapphire {
+    color: #0f52ba;
+}
+
+.diamond {
+    color: #b9f2ff;
+}
+
+.blue-green {
+    color: #0d98ba;
+}
+
+.aquamarine {
+    color: #7fffd4;
+}
+
+.light-green {
+    color: #67c667;
+}
+
+.dark-green {
+    color: darkgreen;
+}
+
+.olivine {
+    color: #a1b772;
+}

@@ -7,6 +7,11 @@ table.asterion-table {
     margin-left: 3.5pt;
 }
 
+table.asterion-table thead tr:first-child th[colspan="100%"] {
+    text-align: center;
+    background: none;
+}
+
 table.asterion-table th {
     background: #cccccc;
     border-top: black 0.75pt solid;
@@ -25,4 +30,37 @@ table.asterion-table td {
 
 table.asterion-table th:not(:first-child), table.asterion-table td:not(:first-child) {
     text-align: center;
+}
+
+table.asterion-table.double {
+    padding: 3px; /* aby byl double border videt i pri overflow auto, jinak by byl skryty */
+}
+
+table.asterion-table.double th, table.asterion-table.double td {
+    border: none;
+    border-bottom: black solid 1px;
+}
+
+table.asterion-table.double td:first-child {
+    text-transform: uppercase;
+}
+
+table.asterion-table.double td:first-child, table.asterion-table.double th:first-child {
+    border-left: black 3px double;
+}
+
+table.asterion-table.double thead tr:nth-child(2) th {
+    border-top: black 3px double;
+}
+
+table.asterion-table.double tr:last-child td {
+    border-bottom: black 3px double;
+}
+
+table.asterion-table.double td:last-child, table.asterion-table.double th:last-child {
+    border-right: black 3px double;
+}
+
+table.asterion-table.double thead tr:first-child th[colspan="100%"] {
+    border: none;
 }
