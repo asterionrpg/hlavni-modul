@@ -31,3 +31,31 @@ ul.diamond-list li:before {
     content: '¨';
     padding-right: 0.1em;
 }
+
+ol.casova-osa {
+    position: relative;
+    padding-left: 0;
+    list-style: none;
+    counter-reset: casova-osa;
+}
+
+ol.casova-osa li {
+    padding: 0.1em 0.1em 0.1em 2.8em;
+}
+
+ol.casova-osa li:before {
+    content: counter(casova-osa);
+    position: absolute;
+    left: 0;
+    padding-left: 0.1em;
+    width: 2.5em;
+    text-align: right;
+}
+
+ol.casova-osa p {
+    text-indent: 0;
+}
+
+ol.casova-osa li.vyznamne {
+    background-color: #e5e5e5;
+}
