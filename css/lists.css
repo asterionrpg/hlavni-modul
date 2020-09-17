@@ -1,0 +1,33 @@
+ol.content {
+    list-style-type: upper-alpha;
+}
+
+ol.content > li {
+    text-transform: uppercase;
+}
+
+ol.content > li li {
+    text-transform: none;
+}
+
+ol.content ol {
+    list-style-type: lower-alpha;
+}
+
+ol.content ol ol {
+    list-style-type: decimal;
+}
+
+ol.alphabet-list {
+    list-style-type: lower-alpha;
+}
+
+ul.diamond-list li {
+    list-style: none;
+}
+
+ul.diamond-list li:before {
+    font-family: symbol, "Times New Roman", serif;
+    content: '¨';
+    padding-right: 0.1em;
+}
