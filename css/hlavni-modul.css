@@ -8,3 +8,16 @@
     margin: 3pt 0;
     text-align: justify;
 }
+
+.detail-v-zapati {
+    position: relative;
+    bottom: .3em;
+}
+
+.detail-v-zapati:before {
+    content: "[";
+}
+
+.detail-v-zapati:after {
+    content: "]";
+}
