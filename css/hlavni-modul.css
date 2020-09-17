@@ -20,3 +20,13 @@
 .detail-v-zapati:after {
     content: "]";
 }
+
+.prima-rec {
+    font-style: italic;
+}
+
+ul.kusy-prekladu {
+    list-style: none;
+    margin-left: 2em;
+    text-indent: 1em;
+}
