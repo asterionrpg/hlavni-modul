@@ -1057,48 +1057,6 @@ DIV.nazevsouboru {
     mso-style-name: "název souboru"
 }
 
-P.pzviska {
-    FONT-FAMILY: "Times New Roman", serif;
-    FONT-SIZE: 11pt;
-    FONT-STYLE: italic;
-    MARGIN: 0 0 3pt;
-    TEXT-ALIGN: justify;
-    mso-bidi-font-size: 10.0pt;
-    mso-pagination: none;
-    mso-fareast-font-family: "Times New Roman";
-    mso-style-next: Normální;
-    mso-bidi-font-style: normal;
-    mso-style-name: přízviska
-}
-
-LI.pzviska {
-    FONT-FAMILY: "Times New Roman", serif;
-    FONT-SIZE: 11pt;
-    FONT-STYLE: italic;
-    MARGIN: 0 0 3pt;
-    TEXT-ALIGN: justify;
-    mso-bidi-font-size: 10.0pt;
-    mso-pagination: none;
-    mso-fareast-font-family: "Times New Roman";
-    mso-style-next: Normální;
-    mso-bidi-font-style: normal;
-    mso-style-name: přízviska
-}
-
-DIV.pzviska {
-    FONT-FAMILY: "Times New Roman", serif;
-    FONT-SIZE: 11pt;
-    FONT-STYLE: italic;
-    MARGIN: 0 0 3pt;
-    TEXT-ALIGN: justify;
-    mso-bidi-font-size: 10.0pt;
-    mso-pagination: none;
-    mso-fareast-font-family: "Times New Roman";
-    mso-style-next: Normální;
-    mso-bidi-font-style: normal;
-    mso-style-name: přízviska
-}
-
 .zdurazneny {
     font-weight: bold;
     letter-spacing: 1pt;

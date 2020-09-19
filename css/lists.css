@@ -32,18 +32,18 @@ ul.diamond-list li:before {
     padding-right: 0.1em;
 }
 
-ol.casova-osa {
+ol.časová-osa {
     position: relative;
     padding-left: 0;
     list-style: none;
     counter-reset: casova-osa;
 }
 
-ol.casova-osa li {
+ol.časová-osa li {
     padding: 0.1em 0.1em 0.1em 2.8em;
 }
 
-ol.casova-osa li:before {
+ol.časová-osa li:before {
     content: counter(casova-osa);
     position: absolute;
     left: 0;
@@ -52,10 +52,10 @@ ol.casova-osa li:before {
     text-align: right;
 }
 
-ol.casova-osa p {
+ol.časová-osa p {
     text-indent: 0;
 }
 
-ol.casova-osa li.vyznamne {
+ol.časová-osa li.významné {
     background-color: #e5e5e5;
 }

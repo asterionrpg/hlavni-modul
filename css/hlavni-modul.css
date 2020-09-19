@@ -2,29 +2,34 @@
     background-color: aqua;
 }
 
-.tajne {
+.tajné {
     color: #676767;
     margin: 3pt 0;
     text-align: justify;
 }
 
-.detail-v-zapati {
+.detail-v-zápati {
     position: relative;
     bottom: .3em;
 }
 
-.detail-v-zapati:before {
+.detail-v-zápati:before {
     content: "[";
 }
 
-.detail-v-zapati:after {
+.detail-v-zápati:after {
     content: "]";
 }
 
-.prima-rec {
+.přímá-řeč {
     font-style: italic;
 }
 
-.kusy-prekladu {
+.kusy-překladu {
     margin-left: 2em;
+}
+
+.přízviska {
+    font-style: italic;
+    margin-bottom: 0.2em;
 }
