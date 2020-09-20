@@ -8,16 +8,16 @@
     text-align: justify;
 }
 
-.detail-v-zápati {
+.detail-v-zápatí {
     position: relative;
     bottom: .3em;
 }
 
-.detail-v-zápati:before {
+.detail-v-zápatí:before {
     content: "[";
 }
 
-.detail-v-zápati:after {
+.detail-v-zápatí:after {
     content: "]";
 }
 
@@ -42,4 +42,8 @@
 .do-třetiny {
     margin: 0;
     width: 33%;
+}
+
+.rejstřík p {
+    margin: .2em 0;
 }
