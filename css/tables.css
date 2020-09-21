@@ -82,3 +82,12 @@ table.header-inversed th {
 table.borderless {
     text-align: left;
 }
+
+/* LIGHTGRAY FIRST */
+table.lightgray-first tr:first-child td {
+    border-top: solid black 1px;
+}
+
+table.lightgray-first tr:first-child td, table.lightgray-first td:first-child {
+    background-color: lightgray;
+}
