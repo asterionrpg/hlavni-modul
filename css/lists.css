@@ -18,8 +18,20 @@ ol.content ol ol {
     list-style-type: decimal;
 }
 
-ol.alphabet-list {
-    list-style-type: lower-alpha;
+ol.seznam-značený-abecedou {
+    list-style-type: none;
+    counter-reset: seznam-značený-abecedou;
+    padding-left: 0;
+}
+
+ol.seznam-značený-abecedou li::before {
+    counter-increment: seznam-značený-abecedou;
+    content: counter(seznam-značený-abecedou, lower-alpha) ")";
+    margin-right: 1em;
+}
+
+ul.diamond-list {
+    padding-left: 0;
 }
 
 ul.diamond-list li {
@@ -29,7 +41,8 @@ ul.diamond-list li {
 ul.diamond-list li:before {
     font-family: symbol, "Times New Roman", serif;
     content: '¨';
-    padding-right: 0.1em;
+    padding-right: 0.5em;
+    vertical-align: top;
 }
 
 ol.časová-osa {
