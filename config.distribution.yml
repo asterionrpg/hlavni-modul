@@ -6,6 +6,8 @@ web:
   home_button_target: 'https://www.drdplus.info/asterion'
   name: 'Asterion RPG - Hlavní modul'
   title_smiley: '☠'
+  default_public_to_local_url_part_regexp: '~https?://((?:[^.]+[.])*)asterionrpg[.]cz~'
+  default_public_to_local_url_part_replacement: 'http://$1asterion.loc'
 google:
   analytics_id: 'UA-121206931-0'
 application:

@@ -1,7 +1,9 @@
-expected_public_url: 'https://hlavni-modul.asterionrpg.cz'
+expected_public_url: 'https://hlavnimodul.asterionrpg.cz'
 has_custom_body_content: false
 block_names_to_expected_content: []
 expected_web_name: 'Hlavní modul pro Asterion'
 expected_page_title: 'Hlavní modul pro Asterion'
 expected_google_analytics_id: 'UA-121206931-0'
 has_tables_related_content: false
+some_expected_table_ids:
+  - "Tabulka – Sedmnáct velkých bohů Asterionu („Sedmnáctka“)"
