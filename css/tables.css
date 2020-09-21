@@ -2,92 +2,93 @@ table {
     display: inline-block;
 }
 
-table.asterion-table {
+table.asterion-tabulka {
     border: none;
     border-collapse: collapse;
     margin-left: 0.3em;
 }
 
-table.asterion-table thead tr:first-child th[colspan="100%"] {
+table.asterion-tabulka thead tr:first-child th[colspan="100%"] {
     text-align: center;
     background: none;
 }
 
-table.asterion-table th {
+table.asterion-tabulka th {
     background: #cccccc;
     border-top: black 1px solid;
 }
 
-table.asterion-table th, table.asterion-table td {
+table.asterion-tabulka th, table.asterion-tabulka td {
     border-bottom: black 1px solid;
     border-left: black 1px solid;
     border-right: black 1px solid;
     padding: 0 1em;
 }
 
-table.asterion-table td {
+table.asterion-tabulka td {
     border-top: medium none;
 }
 
-table.asterion-table th:not(:first-child), table.asterion-table td:not(:first-child) {
+table.asterion-tabulka th:not(:first-child), table.asterion-tabulka td:not(:first-child) {
     text-align: center;
 }
 
 /* DOUBLE BORDER */
 
-table.double-border {
+table.dvojitý-okraj {
     padding: 3px; /* aby byl double border videt i pri overflow auto, jinak by byl skryty */
 }
 
-table.double-border th, table.double-border td {
+table.dvojitý-okraj th, table.dvojitý-okraj td {
     border: none;
     border-bottom: black solid 1px;
 }
 
-table.double-border td:first-child {
+table.dvojitý-okraj td:first-child {
     text-transform: uppercase;
 }
 
-table.double-border td:first-child, table.double-border th:first-child {
+table.dvojitý-okraj td:first-child, table.dvojitý-okraj th:first-child {
     border-left: black 3px double;
 }
 
-table.double-border thead tr:nth-child(2) th {
+table.dvojitý-okraj thead tr:nth-child(2) th {
     border-top: black 3px double;
 }
 
-table.double-border tr:last-child td {
+table.dvojitý-okraj tr:last-child td {
     border-bottom: black 3px double;
 }
 
-table.double-border td:last-child, table.double-border th:last-child {
+table.dvojitý-okraj td:last-child, table.dvojitý-okraj th:last-child {
     border-right: black 3px double;
 }
 
-table.double-border thead tr:first-child th[colspan="100%"] {
+table.dvojitý-okraj thead tr:first-child th[colspan="100%"] {
     border: none;
 }
 
-/* BOLD BORDER */
-table.bold-border {
+table.tlustý-okraj {
     border: solid black 1px; /* přidá +1 pixel k border TD a TH */
 }
 
-table.header-inversed th {
+table.asterion-tabulka.invertovaná-barva-záhlaví th, table.asterion-tabulka.invertovaná-barva-záhlaví td {
+    text-align: left;
+}
+
+table.invertovaná-barva-záhlaví th {
     background-color: gray;
     color: white;
 }
 
-/* BORDERLESS */
 table.borderless {
     text-align: left;
 }
 
-/* LIGHTGRAY FIRST */
-table.lightgray-first tr:first-child td {
+table.první-řádek-a-sloupec-světle-šedý tr:first-child td {
     border-top: solid black 1px;
 }
 
-table.lightgray-first tr:first-child td, table.lightgray-first td:first-child {
+table.první-řádek-a-sloupec-světle-šedý tr:first-child td, table.první-řádek-a-sloupec-světle-šedý td:first-child {
     background-color: lightgray;
 }
