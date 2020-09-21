@@ -77,3 +77,8 @@ table.header-inversed th {
     background-color: gray;
     color: white;
 }
+
+/* BORDERLESS */
+table.borderless {
+    text-align: left;
+}
