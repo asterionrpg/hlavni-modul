@@ -4,7 +4,7 @@
 
 .tajné {
     color: #676767;
-    margin: 3pt 0;
+    margin: 0.3em 0;
     text-align: justify;
 }
 
@@ -46,4 +46,8 @@
 
 .rejstřík p {
     margin: .2em 0;
+}
+
+.na-hlavní-nadpis {
+    font-variant: small-caps;
 }
