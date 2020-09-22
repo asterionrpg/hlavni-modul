@@ -14,3 +14,4 @@ can_be_bought_on_eshop: false
 has_character_sheet: false
 has_links_to_journals: false
 has_link_to_single_journal: false
+has_debug_contacts_with_email: false
