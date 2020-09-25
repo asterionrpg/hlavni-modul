@@ -1,6 +1,10 @@
+<?php
+use \DrdPlus\RulesSkeleton\HtmlHelper;
+
+?>
 <h3>Obsah</h3>
 
-<div id="table_of_contents">
+<div id="<?= HtmlHelper::ID_TABLE_OF_CONTENTS ?>">
   <ol class="content">
     <li><a href="#Výprava Gillena Mořeplavce">Výprava Gillena Mořeplavce</a></li>
     <li>
@@ -22,7 +26,7 @@
         </li>
         <li><a href="#Jak můžeš uvést družinu na Asterion?">Jak můžeš uvést družinu na Asterion?</a></li>
         <li><a href="#Hlavní odlišnosti Asterionu od „obvyklého“ světa">Hlavní odlišnosti Asterionu od „obvyklého“
-          světa</a></li>
+            světa</a></li>
       </ol>
     </li>
     <li><a href="#Úvod pro hráče">Úvod pro hráče</a></li>
@@ -74,8 +78,8 @@
     <li><a href="#Řád světa (základní principy Asterionu)">Řád světa (základní principy Asterionu)</a>
       <ol>
         <li><a href="#Jiné roviny existence: Vnější a Stínový svět Asterionu">Jiné roviny existence: Vnější a Stínový
-          svět
-          Asterionu</a></li>
+            svět
+            Asterionu</a></li>
         <li><a href="#Astrální bytosti">Astrální bytosti</a>
           <ol>
             <li><a href="#Správcové světa">Správcové světa</a></li>
@@ -90,8 +94,8 @@
             <li><a href="#Hrdinové Estel a Rianny">Hrdinové Estel a Rianny</a></li>
             <li><a href="#Hrdinové Auriona a Sirril">Hrdinové Auriona a Sirril</a></li>
             <li><a href="#Hrdinové Lamiuse a Siomena">Hrdinové Lamiuse a Siomena</a></li>
-            <li><a href="#Skřeti">Skřeti</a></li>
-            <li><a href="#Draci">Draci</a></li>
+            <li><a href="#Skřeti v řádu světa">Skřeti v řádu světa</a></li>
+            <li><a href="#Draci v řádu světa">Draci v řádu světa</a></li>
           </ol>
         </li>
         <li><a href="#Podstata nemrtvých">Podstata nemrtvých</a></li>

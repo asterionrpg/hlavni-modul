@@ -7,7 +7,7 @@ web:
   name: 'Asterion RPG - Hlavní modul'
   title_smiley: '☠'
   default_public_to_local_url_part_regexp: '~https?://((?:[^.]+[.])*)asterionrpg[.]cz~'
-  default_public_to_local_url_part_replacement: 'http://$1asterion.loc'
+  default_public_to_local_url_part_replacement: 'http://$1asterionrpg.loc'
 google:
   analytics_id: 'UA-121206931-0'
 application:
