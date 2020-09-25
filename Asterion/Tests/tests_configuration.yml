@@ -1,6 +1,6 @@
 expected_public_url: 'https://hlavnimodul.asterionrpg.cz'
 has_custom_body_content: false
-block_names_to_expected_content: []
+block_names_to_expected_content: [ ]
 expected_web_name: '☠ Asterion RPG - Hlavní modul'
 expected_page_title: '☠ Asterion RPG - Hlavní modul'
 expected_google_analytics_id: 'UA-121206931-0'
@@ -16,3 +16,5 @@ has_links_to_journals: false
 has_link_to_single_journal: false
 has_debug_contacts_with_email: false
 has_notes: false
+are_generic_assets_versioned: false
+is_vendor_dir_versioned: false
