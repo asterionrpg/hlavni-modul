@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ef9f22753c3c4172df686d79ab2e77f6",
+    "content-hash": "e185a0f5e7c50ec455c9ba07a5804363",
     "packages": [
         {
             "name": "drdplus/rules-skeleton",
-            "version": "2.0.11",
+            "version": "3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drdplusinfo/rules-skeleton.git",
-                "reference": "4c7dd65e0e5e951e96c09d3dfb7175d8cb8744d8"
+                "reference": "72dc930acfd230b88c6b565af1a3fad8b447f548"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drdplusinfo/rules-skeleton/zipball/4c7dd65e0e5e951e96c09d3dfb7175d8cb8744d8",
-                "reference": "4c7dd65e0e5e951e96c09d3dfb7175d8cb8744d8",
+                "url": "https://api.github.com/repos/drdplusinfo/rules-skeleton/zipball/72dc930acfd230b88c6b565af1a3fad8b447f548",
+                "reference": "72dc930acfd230b88c6b565af1a3fad8b447f548",
                 "shasum": ""
             },
             "require": {
@@ -73,7 +73,7 @@
                 "helper",
                 "rules"
             ],
-            "time": "2020-09-25T16:09:57+00:00"
+            "time": "2020-09-29T09:34:44+00:00"
         },
         {
             "name": "drdplus/web-versions",

@@ -16,7 +16,7 @@
     },
     "require": {
         "php": ">=7.1",
-        "drdplus/rules-skeleton": "^2.0"
+        "drdplus/rules-skeleton": "3.0"
     },
     "require-dev": {
         "composer/composer": "^1.8",
