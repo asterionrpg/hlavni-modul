@@ -10,6 +10,7 @@ web:
     show_home_button_on_routes: false
     home_button_target: 'https://www.drdplus.info/asterion'
     items:
+      facebook: 'https://www.facebook.com/AsterionSvet/'
       discord: 'https://discord.com/invite/x5DzAx3'
 google:
   analytics_id: 'UA-121206931-0'
