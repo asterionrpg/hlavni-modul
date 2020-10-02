@@ -341,5 +341,6 @@ use \DrdPlus\RulesSkeleton\HtmlHelper;
       </ol>
     </li>
     <li><a href="#Rejstřík">Rejstřík</a></li>
+    <li><a href="/tabulky">Tabulky</a></li>
   </ol>
 </div>
